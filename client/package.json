@@ -1,0 +1,20 @@
+{
+  "name": "list-of-ingredients-client",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "react-scripts": "0.9.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "semantic-ui-css": "^2.2.9",
+    "semantic-ui-react": "^0.67.0",
+    "whatwg-fetch": "^2.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
