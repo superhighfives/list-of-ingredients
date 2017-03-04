@@ -27,6 +27,7 @@ heroku buildpacks:add heroku/ruby --index 2
 git push heroku master
 heroku run rake db:migrate
 heroku run rake db:seed
+heroku open
 ```
 
 Success!
