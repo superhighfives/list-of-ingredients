@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import 'whatwg-fetch'
 import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider } from 'semantic-ui-react'
 
 class App extends Component {
