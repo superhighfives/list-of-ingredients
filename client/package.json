@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
-  "devDependencies": {
-    "react-scripts": "0.9.3"
-  },
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-scripts": "0.9.3",
     "semantic-ui-css": "^2.2.9",
     "semantic-ui-react": "^0.67.0"
   },
