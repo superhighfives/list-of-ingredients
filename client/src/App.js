@@ -23,7 +23,7 @@ class App extends Component {
     this.fetch('api/drinks')
       .then(drinks => {
         this.setState({drinks: drinks})
-        this.getDrink(drinks[0].id)
+        drinks[0] && this.getDrink(drinks[0].id)
       })
   }
   getDrink (id) {
